@@ -1,4 +1,4 @@
-# raspberry-pi-samples
+# raspberry-pi-examples
 Python scripts to play with Raspberry Pi
 
 ## List of scripts:
