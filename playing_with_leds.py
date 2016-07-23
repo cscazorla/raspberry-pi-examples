@@ -12,12 +12,12 @@ def setup():
 		GPIO.output(pin, GPIO.HIGH) # Set all pins to high(+3.3V) to off led
 
 def loop():
+	print 'Yes, Michael?'
 	while True:
 		for pin in pins:
 			GPIO.output(pin, GPIO.LOW)
 			time.sleep(delay)
 			GPIO.output(pin, GPIO.HIGH)
-		print 'Loop..'
 		reduced_pins = pins[1:7]
 		for pin in reversed(reduced_pins):
 				GPIO.output(pin, GPIO.LOW)
