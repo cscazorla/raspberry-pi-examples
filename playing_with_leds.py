@@ -1,4 +1,34 @@
 #!/usr/bin/env python
+# Playing with 8 LEDS connected to a Raspberry Pi
+# Electrical schematics:
+#                                   3.3V
+#                                    +
+#                                    |
+#        +------------+--------------+------------------------+
+#        |            |                                       |
+#        |            |                                       |
+#        |            |                                       |
+#        |            |                                       |
+#       +++          +++                                     +++
+#       | |          | |                                     | |
+#  220R | |     220R | |                                220R | |
+#       +++          +++                                     +++
+#        |            |                                       |
+#        |            |                                       |
+#        |            |                                       |
+#        |            |                                       |
+#      +-+-+        +-+-+                                   +-+-+
+#  LED |   |    LED |   |      .....                    LED |   |
+#      +-+-+        +-+-+                                   +-+-+
+#        |            |                                       |
+#        |            |                                       |
+#        |            |                                       |
+#       +++          +++                                     +++
+#       | |          | |                                     | |
+# GPIO0 | |    GPIO1 | |                               GPIO7 | |
+#       | |          | |                                     | |
+#       +-+          +-+                                     +-+
+
 import RPi.GPIO as GPIO
 import time
 
