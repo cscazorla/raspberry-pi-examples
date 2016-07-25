@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CLCL</title>
+    <script type="text/javascript" src="/webiopi.js"></script>
+    <script type="text/javascript">
+    webiopi().ready(function() {
+				$("input[type=range]").change(function() {
+					var rgb = [
+						$("input[name=r_value]").val(),
+						$("input[name=g_value]").val(),
+						$("input[name=b_value]").val()
+					]
+					webiopi().callMacro("setLight", rgb);
+				});
+    });
+    </script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+		<input type="range" name="r_value" min=0 max=255 value="0">
+		<input type="range" name="g_value" min=0 max=255 value="0">
+		<input type="range" name="b_value" min=0 max=255 value="0">
+</body>
+</html>
