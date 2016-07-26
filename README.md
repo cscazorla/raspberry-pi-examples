@@ -6,3 +6,4 @@ Python scripts to play with Raspberry Pi
  - [rgb_led.py](rgb_led.py) - Flashing a RGB LED with a couple of buttons
  - [WebIOPi rgb led.py](WebIOPi-rgbled) - RGB LED controlled via WebIOPi
  - [beep.py](beep.py) - Playing with a buzzer and a PNP transistor
+ - [rotatory_encoder.py](rotatory_encoder.py) - Playing with the Keyes KY-040 Rotary Encoder
