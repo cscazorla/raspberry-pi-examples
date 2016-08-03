@@ -9,3 +9,4 @@ Python scripts to play with Raspberry Pi
  - [rotatory_encoder.py](rotatory_encoder.py) - Playing with the Keyes KY-040 Rotary Encoder
  - [driving_leds_with_74HC595.py](driving_leds_with_74HC595.py) - Driving leds with 74HC595
  - [Driving_a_7_segment_display_by_74HC595.py](Driving_a_7_segment_display_by_74HC595.py) - Driving a 7 segment display by 74HC595
+ - [pir_motion_sensor.py](pir_motion_sensor.py) - Playing with a PIR motion sensor and the RaspberryPi Camera to detect unwanted visitors to the room
