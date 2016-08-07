@@ -26,6 +26,8 @@
          |CAPACITOR|
          |   104   |
          +---------+
+
+The capactor is added to debounce the button (104 = 100.000 pF = 0.1 uF)
 '''
 
 # Required environment file: pir_motion_sensor.env
