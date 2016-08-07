@@ -2,6 +2,32 @@
 # Playing with a PIR motion sensor and the RaspberryPi Camera
 # to detect unwanted visitors to the room
 
+
+'''
+            +--+
+            |5V|
+            +-++
+              |
++---+ GPIO0 +-+-+    +---+
+|   +-------+PIR+----+GND+--+
+| R |       +---+    +-+-+  |
+| A |                  |    |
+| S |                  |    |
+| P |                  |    |
+| B | GPIO1 +----+   +-+-+  |
+| E +-------+220R+---+LED|  |
+| R |       +----+   +---+  |
+| R |                       |
+| Y | GPIO2 +---+           |
+|   +----+--+BTN+--+--------+
++---+    |  +---+  |
+         |         |
+         +---------+
+         |CAPACITOR|
+         |   104   |
+         +---------+
+'''
+
 # Required environment file: pir_motion_sensor.env
 #  - SENDGRID_API_KEY
 #  - FROM_EMAIL
