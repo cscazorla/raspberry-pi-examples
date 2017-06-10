@@ -2,6 +2,7 @@
 Python scripts to play with Raspberry Pi
 
 ## List of scripts:
+ - [led_example.py](led_example.py) - Switching a LED on/off
  - [playing_with_leds.py](playing_with_leds.py) - Playing with 8 LEDS connected to a Raspberry Pi
  - [rgb_led.py](rgb_led.py) - Flashing a RGB LED with a couple of buttons
  - [WebIOPi rgb led.py](WebIOPi-rgbled) - RGB LED controlled via WebIOPi
